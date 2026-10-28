@@ -11,9 +11,11 @@ from datetime import datetime
 
 DATE_FORMAT = "%Y-%m-%d"
 
+
 def parse_date(text):
     """Convert a YYYY-MM-DD string into a datetime object."""
     return datetime.strptime(text, DATE_FORMAT)
+
 
 class Pharmacy:
     """Holds the patient database, medicine stock and prescriptions."""
@@ -128,6 +130,7 @@ class Pharmacy:
         """Close the database connection."""
         self.conn.close()
 
+
 def main():
     """Run a short demo of the pharmacy system."""
     pharmacy = Pharmacy()
@@ -163,6 +166,7 @@ def main():
     pharmacy.export_prescriptions()
     pharmacy.print_stock()
     pharmacy.close()
+
 
 if __name__ == "__main__":
     main()
