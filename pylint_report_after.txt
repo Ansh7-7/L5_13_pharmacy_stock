@@ -1,6 +1,4 @@
-************* Module pharmacy_system
-pharmacy_system.py:172:0: C0304: Final newline missing (missing-final-newline)
 
-------------------------------------------------------------------
-Your code has been rated at 9.90/10 (previous run: 9.90/10, +0.00)
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
